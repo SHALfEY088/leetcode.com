@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/two-sum/description/
 package main
 
 import "fmt"
@@ -23,13 +24,13 @@ func twoSum(nums []int, target int) []int {
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-func twoSum(nums []int, target int) []int {
-	indexMap := make(map[int]int)
-	for indx, num := range nums {
-		if requiredIdx, isPresent := indexMap[target-num]; isPresent {
-			return []int{requiredIdx, indx}
+func twoSum(nums []int, target int) int {
+	l := 1
+	for r := 1; r < (len(nums)); r++ {
+		if nums[r] != nums[r-1] {
+			nums[l] = nums[r]
+			l++
 		}
-		indexMap[num] = indx
 	}
-	return []int{}
+	return l
 }

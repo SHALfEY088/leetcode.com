@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/1.TwoSum.iml" filepath="$PROJECT_DIR$/.idea/1.TwoSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.com.iml" filepath="$PROJECT_DIR$/.idea/leetcode.com.iml" />
     </modules>
   </component>
 </project>
