@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/contains-duplicate/
 package main
 
 import "fmt"
