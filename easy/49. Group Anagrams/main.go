@@ -1,3 +1,4 @@
+https://leetcode.com/problems/group-anagrams/description/
 package main
 
 import "fmt"
@@ -9,5 +10,5 @@ func main() {
 }
 
 func groupAnagrams(strs []string) [][]string {
-
+	return make([][]string, 0)
 }
